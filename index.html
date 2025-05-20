@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Café Nepré</title>
+  <title>Nepré Café</title>
   <style>
     body {
       font-family: 'Georgia', serif;
@@ -21,6 +21,17 @@
       margin: 0;
       font-size: 2.5rem;
     }
+    nav {
+      background-color: #e0c8a0;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #4a3628;
+      font-weight: bold;
+      text-decoration: none;
+    }
     section {
       padding: 3rem 2rem;
       max-width: 900px;
@@ -32,9 +43,15 @@
     .products div {
       background-color: #fff;
       padding: 1.5rem;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
       border-left: 8px solid #e09654;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .products img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 1rem;
+      border-radius: 8px;
     }
     .button {
       display: inline-block;
@@ -57,65 +74,67 @@
       text-decoration: none;
       font-weight: bold;
     }
-    form input, form textarea {
-      display: block;
-      width: 100%;
-      margin-bottom: 1rem;
-      padding: 0.5rem;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-    form button {
-      padding: 0.75rem 1.5rem;
-      background-color: #4a3628;
-      color: white;
-      border: none;
-      font-weight: bold;
-      border-radius: 5px;
-    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Café Nepré</h1>
+    <h1>Nepré Café</h1>
     <p>Da nossa roça para o seu escritório</p>
   </header>
 
-  <section class="about">
-    <h2>Sobre o Café Nepré</h2>
-    <p>Produzido em Nepomuceno/MG com grãos selecionados da nossa própria família, o Café Nepré é torrado e moído artesanalmente, embalado com carinho e entregue com qualidade. Para empresas que valorizam sabor, procedência e profissionalismo.</p>
+  <nav>
+    <a href="#quem-somos">Quem Somos</a>
+    <a href="planos.html">Planos</a>
+    <a href="galeria.html">Galeria</a>
+    <a href="colaboradores.html">Colaboradores</a>
+    <a href="contato.html">Fale Conosco</a>
+  </nav>
+
+  <section class="about" id="quem-somos">
+    <h2>Sobre o Nepré Café</h2>
+    <p>Produzido em Nepomuceno/MG com grãos selecionados da nossa própria família, o Nepré Café é torrado e moído artesanalmente, embalado com carinho e entregue com qualidade. Para empresas que valorizam sabor, procedência e profissionalismo.</p>
   </section>
 
-  <section class="products">
+  <section class="products" id="produtos">
     <h2>Planos para Escritórios</h2>
     <div>
       <h3>Plano Essencial</h3>
-      <p>1kg/mês – R$ 100,00<br> Ideal para pequenos escritórios (3 a 5 pessoas).</p>
+      <p>1kg/mês – R$ 80,00<br> Ideal para pequenos escritórios (3 a 5 pessoas).</p>
+      <img src="img/essencial.jpg" alt="Café Essencial">
     </div>
     <div>
       <h3>Plano Equilibrado</h3>
-      <p>2kg/mês – R$ 190,00<br> Para escritórios médios (6 a 10 pessoas).</p>
+      <p>2kg/mês – R$ 160,00<br> Para escritórios médios (6 a 10 pessoas).</p>
+      <img src="img/equilibrado.jpg" alt="Café Equilibrado">
     </div>
     <div>
       <h3>Plano Premium</h3>
-      <p>5kg/mês – R$ 470,00<br> Perfeito para equipes maiores (10+ pessoas).</p>
+      <p>5kg/mês – R$ 400,00<br> Perfeito para equipes maiores (10+ pessoas).</p>
+      <img src="img/premium.jpg" alt="Café Premium">
     </div>
     <a href="https://wa.me/5535999999999" class="button">Fazer Pedido via WhatsApp</a>
-    <a href="#formulario" class="button">Solicitar Orçamento</a>
+    <a href="orcamento.html" class="button">Solicitar Orçamento</a>
   </section>
 
-  <section class="contact" id="formulario">
-    <h2>Formulário de Orçamento</h2>
-    <form action="#" method="post">
-      <input type="text" name="nome" placeholder="Seu nome" required>
-      <input type="email" name="email" placeholder="Seu e-mail" required>
-      <textarea name="mensagem" rows="5" placeholder="Digite sua mensagem..." required></textarea>
-      <button type="submit">Enviar Solicitação</button>
-    </form>
+  <section id="galeria">
+    <h2>Galeria</h2>
+    <p>[Espaço reservado para imagens e vídeos do Nepré Café]</p>
+  </section>
+
+  <section id="colaboradores">
+    <h2>Colaboradores</h2>
+    <p>[Espaço reservado para mostrar quem faz parte da equipe ou parceiros]</p>
+  </section>
+
+  <section class="contact" id="contato">
+    <h2>Fale Conosco</h2>
+    <p>Para dúvidas ou sugestões, entre em contato via WhatsApp ou e-mail:<br>
+    WhatsApp: <a href="https://wa.me/5535999999999">(35) 9 9999-9999</a><br>
+    E-mail: <a href="mailto:contato@cafnepre.com.br">contato@cafnepre.com.br</a></p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Café Nepré. Todos os direitos reservados.</p>
+    <p>&copy; 2025 Nepré Café. Todos os direitos reservados.</p>
   </footer>
 </body>
 </html>
