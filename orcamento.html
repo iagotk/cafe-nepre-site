@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solicitar Orçamento - Café Nepré</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      background-color: #f5e7d3;
+      color: #4a3628;
+    }
+    header {
+      background-color: #4a3628;
+      color: #f5e7d3;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      max-width: 700px;
+      margin: auto;
+      padding: 2rem;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    form input, form textarea {
+      display: block;
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      background-color: #4a3628;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Solicitar Orçamento</h1>
+    <p>Preencha o formulário e entraremos em contato</p>
+  </header>
+
+  <section>
+    <form action="#" method="post">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <input type="text" name="cidade" placeholder="Cidade" required>
+      <input type="text" name="estado" placeholder="Estado" required>
+      <textarea name="mensagem" rows="5" placeholder="Mensagem adicional..." required></textarea>
+      <button type="submit">Enviar Solicitação</button>
+    </form>
+  </section>
+</body>
+</html>
