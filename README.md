@@ -12,12 +12,11 @@ Este é o site oficial do **Nepré Café**, um projeto familiar de torrefação 
 - `contato.html`: Página com contatos diretos.
 - `img/`: Pasta recomendada para armazenar as imagens dos produtos, equipe, etc.
 
-## 🚀 Publicação no GitHub Pages
+## 🚀 Nossas redes sociais:
 
-1. Faça o upload de todos os arquivos (HTML e imagens) no repositório.
-2. Vá em **Settings > Pages** e selecione a branch `main` e a pasta `/root`.
-3. Salve e acesse o site pelo link gerado, por exemplo:  
-   `https://seuusuario.github.io/nepre-cafe`
+1. 
+2. 
+3. 
 
 ## ✉️ Contato
 
