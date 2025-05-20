@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Nepré</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      background-color: #dcc5a4;
+      color: #4a3628;
+    }
+    header {
+      background-color: #4a3628;
+      color: #dcc5a4;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .about, .products, .contact {
+      margin-bottom: 4rem;
+    }
+    .products div {
+      background-color: #fff;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      border-left: 8px solid #e09654;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .button {
+      display: inline-block;
+      margin: 1rem 1rem 0 0;
+      padding: 0.75rem 1.5rem;
+      background-color: #8c6f4b;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #4a3628;
+      color: #dcc5a4;
+      text-align: center;
+      padding: 2rem;
+    }
+    a {
+      color: #8c6f4b;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    form input, form textarea {
+      display: block;
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      padding: 0.75rem 1.5rem;
+      background-color: #4a3628;
+      color: white;
+      border: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Café Nepré</h1>
+    <p>Da nossa roça para o seu escritório</p>
+  </header>
+
+  <section class="about">
+    <h2>Sobre o Café Nepré</h2>
+    <p>Produzido em Nepomuceno/MG com grãos selecionados da nossa própria família, o Café Nepré é torrado e moído artesanalmente, embalado com carinho e entregue com qualidade. Para empresas que valorizam sabor, procedência e profissionalismo.</p>
+  </section>
+
+  <section class="products">
+    <h2>Planos para Escritórios</h2>
+    <div>
+      <h3>Plano Essencial</h3>
+      <p>1kg/mês – R$ 100,00<br> Ideal para pequenos escritórios (3 a 5 pessoas).</p>
+    </div>
+    <div>
+      <h3>Plano Equilibrado</h3>
+      <p>2kg/mês – R$ 190,00<br> Para escritórios médios (6 a 10 pessoas).</p>
+    </div>
+    <div>
+      <h3>Plano Premium</h3>
+      <p>5kg/mês – R$ 470,00<br> Perfeito para equipes maiores (10+ pessoas).</p>
+    </div>
+    <a href="https://wa.me/5535999999999" class="button">Fazer Pedido via WhatsApp</a>
+    <a href="#formulario" class="button">Solicitar Orçamento</a>
+  </section>
+
+  <section class="contact" id="formulario">
+    <h2>Formulário de Orçamento</h2>
+    <form action="#" method="post">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <textarea name="mensagem" rows="5" placeholder="Digite sua mensagem..." required></textarea>
+      <button type="submit">Enviar Solicitação</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Café Nepré. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
